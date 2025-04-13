@@ -1,0 +1,1 @@
+# Mini Project with Deployment strategies local environment

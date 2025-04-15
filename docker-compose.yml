@@ -14,3 +14,10 @@ services:
     environment:
       - PYTHONUNBUFFERED=1
     restart: unless-stopped
+
+    # Logging config
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
